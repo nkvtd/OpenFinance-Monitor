@@ -1,11 +1,12 @@
 import cron from 'node-cron';
 import { getTransactions } from "./index";
+import { logger } from '../shared/logger/logger';
 
 export async function runTransactions(): Promise<void> {
     try {
         await getTransactions();
     } catch (error) {
-        console.error(error);
+        logger.error(error);
     }
 }
 

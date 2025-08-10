@@ -1,13 +1,14 @@
 import cron from 'node-cron';
 import { getAwardedContracts} from './awarded-contracts';
 import { getRealisedContracts } from './realised-contracts';
+import { logger } from '../shared/logger/logger';
 
 export async function runContracts(): Promise<void> {
     try {
         await getAwardedContracts();
         await getRealisedContracts();
     } catch (error) {
-        console.error(error);
+        logger.error(error);
     }
 }
 

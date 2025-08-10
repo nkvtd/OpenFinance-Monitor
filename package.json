@@ -21,6 +21,7 @@
     "puppeteer": "^24.16.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "tough-cookie": "^5.1.2"
+    "tough-cookie": "^5.1.2",
+    "winston": "^3.17.0"
   }
 }

@@ -1,0 +1,120 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+*.md
+docs/
+
+# Development and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build outputs
+ dist/  # Comment out if you need dist/ in container
+ build/ # Comment out if you need build/ in container
+
+# TypeScript cache and source maps
+*.tsbuildinfo
+**/*.js.map
+**/*.d.ts.map
+
+# Test files
+**/*.test.ts
+**/*.test.js
+**/*.spec.ts
+**/*.spec.js
+coverage/
+.nyc_output
+**/__tests__/
+**/__mocks__/
+
+# Environment files
+.env*
+!.env.example
+
+# Package manager files
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Logs and runtime data
+logs/
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cache directories
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Docker files themselves
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Development tools and configs
+.editorconfig
+.prettierrc*
+.eslintrc*
+jest.config.*
+#tsconfig*.json  # May want to include these if needed for build
+#package-lock.json  # Keep this for production builds
+# yarn.lock       # Use either npm or yarn, not both
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+dump.rdb
+
+# Security and secrets
+*.pem
+*.key
+*.cert
+secrets/

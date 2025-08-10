@@ -1,0 +1,26 @@
+{
+  "name": "openfinance-monitor",
+  "version": "1.0.0",
+  "description": "Tool for scraping publicly available financial records in Macedonia",
+  "homepage": "https://github.com/nkvtd/OpenFinance-Monitor#readme",
+  "bugs": {
+    "url": "https://github.com/nkvtd/OpenFinance-Monitor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkvtd/OpenFinance-Monitor.git"
+  },
+  "license": "MIT",
+  "author": "nkvtd",
+  "type": "module",
+  "main": "/",
+  "scripts": {},
+  "dependencies": {
+    "axios": "^1.11.0",
+    "node-cron": "^4.2.1",
+    "puppeteer": "^24.16.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tough-cookie": "^5.1.2"
+  }
+}

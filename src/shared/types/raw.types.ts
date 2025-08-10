@@ -30,6 +30,7 @@ export interface TreasuryTransactionRaw {
     payer: string,
     payerAccount: string,
     payerCode: string,
+    payerCodeValue: string,
     payerProgram: string,
     amount: number
 }

@@ -41,7 +41,6 @@ web_modules/
 .serverless/
 .docusaurus
 .fusebox/
-.nyc_output
 .grunt
 .yarn/*
 !.yarn/patches

@@ -15,8 +15,8 @@ export async function fetchTransactions(): Promise<any> {
         const setCookieHeaders = response.headers['set-cookie'];
         if (setCookieHeaders) {
             setCookieHeaders.forEach((cookieStr: string) => {
-                cookieJar.setCookie(cookieStr, response.config.url!, (err) => {
-                    if (err) console.error('Error setting cookie:', err);
+                cookieJar.setCookie(cookieStr, response.config.url!, (error) => {
+                    if (error) throw error;
                 });
             });
         }

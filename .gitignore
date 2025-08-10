@@ -73,6 +73,7 @@ out
 *.swo
 
 # IDE files (JetBrains)
+/.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
@@ -141,4 +142,3 @@ vite.config.ts.timestamp-*
 #Carthage/Build
 #fastlane/report.xml
 #fastlane/screenshots
-/.idea/
